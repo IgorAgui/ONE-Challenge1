@@ -1011,9 +1011,10 @@ button:hover {
                 margin-left: 30px;
                 width: 230px;
         }
-.block p {
-        font-size: 14px;
-}
+
+        .block p {
+                font-size: 14px;
+        }
 
 }
 
@@ -1174,3 +1175,158 @@ button:hover {
 
 }
 
+@media screen and (max-width: 365px) {
+
+        /* Heater */
+        .caixa {
+                width: 100%;
+                height: 100%;
+
+
+
+        }
+
+        header h1 {
+                color: white;
+
+        }
+
+        .flex h1 {
+                font-size: 18px;
+                padding-top: 0px;
+                padding-right: 45px;
+        }
+
+        .flex p {
+                font-size: 13px;
+                font-family: 'Courier New', Courier, monospace;
+                padding-right: 45px;
+                padding-top: 1px;
+        }
+
+        /* Main */
+        .texto {
+                margin-left: 5px;
+                display: block;
+                margin-top: 5px;
+        }
+
+        .texto2 {
+                margin-left: 0px;
+        }
+
+        textarea {
+                width: 300px;
+                height: 170px;
+        }
+
+        /* Sobreposto */
+        .sobre {
+
+                width: 340px;
+                height: 200px;
+                position: absolute;
+                left: 0px;
+                margin-top: 95px;
+        }
+
+        .sobre img {
+                width: 130px;
+                height: 90px;
+                padding-left: 85px;
+        }
+
+        .sobre h1 {
+                font-size: 13px;
+                padding-top: 0px;
+                font-weight: none;
+                font-style: none;
+                color: black;
+                padding-right: 50px;
+        }
+
+        .sobre p {
+                padding-top: 8px;
+                color: white;
+                padding-right: 40px;
+                font-size: 15px;
+        }
+
+        .sobre2 {
+                margin-right: 800px;
+                display: none;
+                width: 305px;
+                height: 173px;
+                left: 6px;
+                top: 246px;
+        }
+
+        .sobre2 img {
+                padding-left: 110px;
+                width: 80px;
+                height: 80px;
+
+        }
+
+        .sobre2 h1 {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 20px;
+                padding-top: 25px;
+
+        }
+
+        /* Sobreposto */
+        .aviso {
+                margin-left: 5px;
+        }
+
+        /* Button */
+        .botao {
+                margin-left: -10px;
+        }
+
+        button {
+                width: 133px;
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+                border: 1px solid white;
+        }
+
+        .botaoali {
+                margin-top: 10px;
+                margin-left: 100px;
+        }
+
+        /* Footer */
+        .rodape {
+                margin-left: 10px;
+        }
+
+        .linha {
+                margin-top: 15px;
+        }
+
+        .mobile {
+                width: 60px;
+                height: 30px;
+                padding-bottom: 200px;
+        }
+
+        .mobile2 {
+                width: 50px;
+                height: 50px;
+                padding-bottom: 200px;
+        }
+
+        .mobile3 {
+                width: 100px;
+                height: 100px;
+                padding-bottom: 200px;
+        }
+
+        .block {
+                display: none;
+                margin-left: 20px;
+        }
+
+}
