@@ -6,98 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONE CHALLENGE</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <script src="assets/js/java.js"></script>
-    <audio id="awp" src="assets/sound/awp.mp3"></audio>
-    <audio id="erro" src="assets/sound/erro.mp3"></audio>
-    <audio id="urna" src="assets/sound/urna.mp3"></audio>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <div class="caixa">
-        <header>
-            <div class="flex">
 
-                <h1>Mensagens Criptografadas</h1>
-                <br>
-                <p>Digite abaixo a mensagem que deseje criptografar</p>
+    <header>
+        <h1>Mensagens Criptografadas</h1>
+        <p>
+            Digite abaixo a mensagem que deseje criptografar
+        </p>
+    </header>
 
-
+    <main>
+        <section>
+            <textarea name="" id="mensagem" cols="30" rows="10"></textarea>
+            <p id="error" class="aviso"> <i class='bx bx-error-circle'></i> Apenas letras minúsculas e sem acento.</p>
+            <div class="buttons">
+                <button onclick="Criptografar()">Criptografar</button>
+                <button onclick="Descriptografar()">Descriptografar</button>
             </div>
-        </header>
+        </section>
 
-        <main>
-            <div class="texto">
-                <textarea name="" id="mensagem" cols="0" rows="0" placeholder="Digite seu texto"></textarea>
+        <section id="sumir" class="background">
+            <img src="assets/img/eagle red.png" alt="">
+            <h1>Nenhuma mensagem encontrada</h1>
 
-                <textarea name="" id="mensagem2" cols="0" rows="0" class="texto2"></textarea>
+        </section>
 
+        <section id="awp1" class="awp">
+            <img src="assets/img/awwp.png" alt="">
+            <h1>Digite Algo</h1>
+        </section>
+
+        <section id="aparecer">
+            <textarea name="" id="mensagem2" cols="30" rows="10"></textarea>
+            <h2 id="copy" class="copy">Texto Copiado</h2>
+            <div class="buttons">
+                <button onclick="Copiar()" class="buttons2"><i class='bx bx-copy'></i>Copiar</button>
             </div>
+        </section>
 
-            <div id="foto" class="sobre">
+    </main>
 
-                <img src="assets/img/Procura.png" alt="Procura" width="" height="">
+    <footer>
+        <div>
+            <a href="https://github.com/IgorAgui"><i class='bx bxl-github'></i></a>
+            <h3>&copy Desenvolvido por </h3>
+            <span>Igor Aguiar</span>
+            <a href="https://www.linkedin.com/in/igoraguiamg/"><i class='bx bxl-linkedin'></i></a>
+        </div>
 
-                <h1>Nenhuma mensagem encontrada</h1>
+    </footer>
 
-                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
 
-            </div>
-            <div id="spy" class="sobre2">
+    <script src="assets/js/index.js"></script>
+    <audio id="awp" src="assets/sound/awp.mp3"></audio>
+    <audio id="erro" src="assets/sound/erro.mp3"></audio>
+    <audio id="urna" src="assets/sound/urna.mp3"></audio>
 
-                <img src="assets/img/spy.png" alt="Digite algo" width="280" height="280">
-                <h1>Digite ALGO</h1>
-
-            </div>
-
-            <div class="aviso">
-                <img src="assets/img/aviso.png" alt="aviso de erro">
-                <p> Apenas letras minúsculas e sem acento.</p>
-            </div>
-
-            <div id="efeito" class="block">
-                </block>
-                <p> Apenas letras minúsculas e sem acento.</p>
-            </div>
-
-            <div class="botao">
-                &nbsp; &nbsp; &nbsp;
-
-                <button onclick="Criptografar()" id="btncripto">Criptografar</button>
-
-                &nbsp; &nbsp; &nbsp;
-
-                <button onclick="Descriptografar()" id="btncripto2" class="boton">Descriptografar</button>
-
-                <button onclick="Copiar()" id="btncopiar" class="botaoali boton">Copiar</button>
-
-            </div>
-
-        </main>
-
-        <footer>
-            <hr class="linha">
-            <div class="rodape">
-
-                <a href="https://www.alura.com.br/"> <img class="mobile" src="assets/img/alura logo.png"
-                        alt="Logo Alura" width="225" height="100"> </a>
-
-                <a href="https://github.com/IgorAgui"> <img class="imagens mobile2" src="assets/img/gitwhite.png"
-                        alt="Github Logo" width="80" height="75"> </a>
-
-                <a href="https://www.linkedin.com/in/igoraguiamg/"> <img class="imagens mobile2"
-                        src="assets/img/linkedin.png" alt="Linkedin Logo" width="80" height="75"> </a>
-
-                <a href="https://www.oracle.com/br/"> <img class="imagens mobile3" src="assets/img/Oracle-Logo.png"
-                        alt="Logo Oracle" width="240" height="155"> </a>
-
-            </div>
-        </footer>
 </body>
 
 </html>
