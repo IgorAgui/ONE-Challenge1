@@ -27,31 +27,7 @@ A página deve ter campos para inserção do texto a ser criptografado ou descri
 
 O resultado deve ser exibido na tela.
 
-# Responsividade para telas
-  
-  <div display=flex>
- 
- <h3> Desktop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- Laptop portrait </h3>
-   <img width=400 height=250 src=https://github.com/IgorAgui/ONE-Challenge1/blob/main/responsive/Desktop.JPG>
-   <img width=400 height=250 src=https://github.com/IgorAgui/ONE-Challenge1/blob/main/responsive/Tablet%20and%20iPad%20portrait.JPG>
-   </div>
-   
-   <div display=flex>
-   <h3>Tablet / iPad portrait
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   Tablet </h3>
-   
-   <img width=400 height=250 src=https://github.com/IgorAgui/ONE-Challenge1/blob/main/responsive/Tablet%20and%20iPad%20portrait.JPG>
-   <img width=400 height=250 src=https://github.com/IgorAgui/ONE-Challenge1/blob/main/responsive/Tablet.JPG>
-   </div>
-   
-   <div display=flex>
-   <h3> Smartphone portrait </h3>
-   
-   <img width=365 height=600 src=https://github.com/IgorAgui/ONE-Challenge1/blob/main/responsive/Smartphone%20portrait.JPG>
-   
-   </div>
+# Responsividade para telas 
    
   # Linguagens/tecnologias utilizadas
    
